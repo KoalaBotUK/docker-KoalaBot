@@ -62,4 +62,4 @@ VOLUME /config
 # run app
 #########
 
-CMD [ "/opt/venv/bin/python", "KoalaBot.py"]
+CMD [ "/opt/venv/bin/python", "KoalaBot.py", "--config", "/config/"]
